@@ -22,6 +22,7 @@ app.get('/products', async (req, res) => {
     }
 })
 
+// fetch a product
 app.get('/products/:id', async (req, res) => {
     try {
         const {id} = req.params;
